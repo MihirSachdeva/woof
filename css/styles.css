@@ -1,0 +1,248 @@
+h1
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+body
+{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid
+{
+  padding: 3% 15% 7%;
+}
+
+#title
+{
+  background-color: #FF4C68;
+}
+
+/* navigation bar  */
+
+.navbar
+{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item
+{
+  padding: 0 18px;
+}
+
+.nav-link
+{
+  font-size: 1.2rem;
+}
+
+/* Download buttons */
+
+.download-button
+{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image
+{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* features */
+
+#features
+{
+  text-align: center;
+  width: 100%;
+  padding: 7% 15%;
+  background-color: #FFF;
+  position: relative;
+}
+
+#features h3
+{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#features p
+{
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+
+#features i
+{
+  font-size: 3.5rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+#features i:hover
+{
+  color: #ff4c68;
+  transition: 0.3s;
+}
+
+/* testimonial section */
+
+#testimonials
+{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+#testimonials h2
+{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image
+{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#testimonials em
+{
+  font-size: 1.4rem;
+}
+
+#press
+{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image
+{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item
+{
+  padding: 7% 15%;
+}
+
+/* pricing section */
+
+#pricing
+{
+  padding: 100px;
+  text-align: center;
+}
+
+#pricing h3
+{
+  font-weight: 900;
+  font-size: 1.7rem;
+
+}
+
+#pricing h2
+{
+  font-weight: 900;
+  font-size: 2.7rem;
+}
+
+#pricing p
+{
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.pricing-col
+{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px)
+{
+  .title-image
+  {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title
+  {
+    text-align: center;
+  }
+}
+
+/* call to action */
+
+#cta
+{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+#cta h3
+{
+  color: #fff;
+  font-weight: 900;
+  font-size: 2.5rem;
+  padding-top: 100px;
+}
+
+/* footer */
+
+#footer
+{
+  text-align: center;
+  padding: 100px;
+}
+
+#footer i
+{
+  color: #000;
+  font-size: 2rem;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+#fbicon i:hover
+{
+  color: #3b5998;
+}
+
+#twicon i:hover
+{
+  color: #00acee;
+}
+
+#instaicon i:hover
+{
+  color: #c92292;
+}
+
+#mailicon i:hover
+{
+  color: #d46622;
+}
+
+#footer i:hover
+{
+  transition: 0.3s;
+}
